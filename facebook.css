@@ -1,0 +1,167 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+}
+#HeaderFile{
+				background-color:#FFFAE2;
+				height:120px;
+}
+#AndroidIcon{
+				float:left;
+				height:100px;
+				width:80px;
+				margin-left:30px;
+				margin-top:10px;
+}
+#header-text{
+				float:left;
+				font-size:35px;
+				margin:30px;
+				color:#455D7F;
+}
+#clear-div{
+				clear:both;
+}
+#fb-name{
+			  text-align:center;
+				font-size:60px;
+				color:#1878F3;
+				
+}
+input{
+				height:120px;
+				width:85%;
+				margin-top:15px;
+				margin-left:5%;
+				font-size:36px;
+				border-style:solid;
+				border-color:#d1d1d1;
+				border-radius:10px;
+				background-color:#F5F6F8;
+				padding-left:5%;
+}
+#login{
+				height:120px;
+				width:90.50%;
+				margin-top:25px;
+				background-color:#1878F3;
+				font-size:45px;
+				color:white;
+				font-weight:bold;
+				outline:none;
+				
+}
+#login:hover{
+				background-color:#6FADFF;
+}
+#forgotPass{
+				text-align:center;
+				font-size:35px;
+				color:#2F6CBF;
+				font-size:35px;
+}
+
+
+
+
+
+#hr-center{
+				margin:50% auto;
+				text-align:center;
+				position:relative;
+				font-size:35px;
+				margin-top:-20px;
+				color:#696969;
+				margin-bottom:-10px;
+				max-width:860px;
+				
+}
+#hr-center:before{
+				content:"";
+				display:block;
+				width:380px;
+				height:2px;
+				position:absolute;
+				background:#b4b4b4;
+				left:0;
+				top:50%;
+				z-index:-2;
+}
+#hr-center:after{
+				content:"";
+				display:block;
+				width:380px;
+				height:2px;
+				position:absolute;
+				background:#b4b4b4;
+				right:0;
+				top:50%;
+				z-index:-2;
+}
+#create-account{
+				background-color:#00A400;
+				height:110px;
+				width:50%;
+				margin-top:40px;
+				margin-left:25%;				
+				font-size:45px;
+				color:white;
+				font-weight:bold;
+				outline:none;
+				
+}
+#create-account:hover{
+				background-color:#86DF81;
+}
+
+#fotter-img{
+				margin-top:200px;
+				margin-left:16%;
+				height:500px;
+				width:680px;
+}
+#tdiv{
+			background-color:#F5F6F8;
+			width:90%;
+			margin-left:5%;	
+			height:550px;
+			border-style:solid;
+			border-color:#d1d1d1;
+			border-radius:10px;
+			
+}
+#tphoto{
+				height:250px;
+				width:30%;
+				border-radius:10000px;
+				margin-left:35%;
+				margin-top:30px;
+}
+
+#tname{
+				margin-left:20%;
+				font-size:40px;
+}
+#tp{
+				font-size:25px;
+				margin-left:5%;
+				color:#666666;
+}
+#seeMore{
+				font-size:30px;
+				margin-left:43%;
+				color:#1878F3;
+}
+
+
+
+
+
+
+
+
+
+
+
+

